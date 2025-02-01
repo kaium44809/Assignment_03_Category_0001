@@ -1,160 +1,544 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Responsive Categories</title>
     <!-- Google Font (Sora) starts here -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google Font (Sora) ends here -->
 
-     <!-- Tailwind code -->
-     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- Tailwind code -->
-     <style>
-        .sora-font{
-            font-family: "Sora", serif;
-        }
-     </style>
-</head>
+    <!-- Tailwind code -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind code -->
+    <style>
+      .sora-font {
+        font-family: "Sora", serif;
+      }
+    </style>
+  </head>
 
-<body class="sora-font">
-    <section class="flex items-center justify-around bg-[#FFF9F4] pt-6 pb-6 font-normal">
-        <div class="flex items-center gap-2">
-            <img src="./assets/c1-assets/logo-header.png" alt="">
-            <h4 class="hidden md:flex text-2xl hover:text-yellow-500">Browse4Pets</h4>
-        </div>
-        <div class="hidden md:flex text-xl flex items-center gap-[32px]">
-            <a class="hover:text-yellow-500" href="#">Find a pet</a>
-            <a class="hover:text-yellow-500" href="#">Breeds</a>
-            <a class="hover:text-yellow-500" href="#">Contact us</a>
-        </div>
-        <div class="text-xl	flex items-center gap-4">
-            <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden md:flex size-6 hover:text-yellow-500">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-              </svg>
-              </p>
-            <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden md:flex size-6 hover:text-yellow-500">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-              </svg>
-              </p>
-              <button class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] hover:text-yellow-500">Login</button>
-              <button class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] bg-[#FFDC26] hover:text-black-500">Register</button>
-        </div>
-        <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 flex lg:hidden">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+  <body class="sora-font">
+    <!-- navigation bar starts here -->
+    <section
+      class="flex items-center justify-around bg-[#FFF9F4] pt-6 pb-6 font-normal"
+    >
+      <div class="flex items-center gap-2">
+        <img src="./assets/c1-assets/logo-header.png" alt="" />
+        <h4 class="hidden md:flex text-2xl hover:text-yellow-500">
+          Browse4Pets
+        </h4>
+      </div>
+      <div class="hidden md:flex text-xl flex items-center gap-[32px]">
+        <a class="hover:text-yellow-500" href="#">Find a pet</a>
+        <a class="hover:text-yellow-500" href="#">Breeds</a>
+        <a class="hover:text-yellow-500" href="#">Contact us</a>
+      </div>
+      <div class="text-xl flex items-center gap-4">
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="hidden md:flex size-6 hover:text-yellow-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
           </svg>
-          </p>
+        </p>
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="hidden md:flex size-6 hover:text-yellow-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+            />
+          </svg>
+        </p>
+        <button
+          class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] hover:text-yellow-500"
+        >
+          Login
+        </button>
+        <button
+          class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] bg-[#FFDC26] hover:text-black-500"
+        >
+          Register
+        </button>
+      </div>
+      <p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6 flex lg:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+          />
+        </svg>
+      </p>
     </section>
-    <hr>
+    <hr />
 
+    <!-- navigation bar end here -->
+
+    <!-- Banner section starts here -->
+    <div class="relative h-screen bg-cover bg-center">
+      <img
+        class="lg:ml-36"
+        src="./assets/c1-assets/cat-big.png"
+        alt=""
+      />
+      <div class="lg:mx-24 absolute inset-0">
+        <h1
+          class="lg:text-[56px] sm:text-[30px] lg:font-bold sm:min-w-2 lg:mt-[100px] lg:mb-[15px] lg:w-[680px] lg:h-[220px]"
+        >
+          Pamper Your Pet,<br />
+          Because They Deserve <br />
+          the Bes
+        </h1>
+        <p class="lg:min-w-full sm:min-w-4 text-[#111111]">
+          Discover a world of treats, toys, and essentials handpicked for <br />
+          your furry friends. Shop now and make tails wag with joy!
+        </p>
+        <button
+          class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] bg-[#FFDC26] hover:text-black-500 lg:mt-[24px] text-[#111111]"
+        >
+          Find a pet
+        </button>
+      </div>
+    </div>
+    <!-- Banner section ends here -->
     <!-- Browse By Categories section starts here -->
-<section class="lg:m-36">
-    <div class="w-full max-w-5xl p-5">
-        <h2 class="lg:text-4xl sm:text-3xl text font-extrabold	">Browse By Categories</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/dog-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Fish</h3>
-                <p class="text-base">3 items</p>
+    <section class="lg:m-36">
+      <div class="w-full max-w-5xl p-5">
+        <h2 class="lg:text-4xl sm:text-3xl text font-extrabold">
+          Browse By Categories
+        </h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4"
+        >
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/dog-cartoon.png" alt=""
+              /></span>
             </div>
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/fish-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Fish</h3>
-                <p class="text-base">3 items</p>
+            <h3 class="font-bold text-xl mt-3">Fish</h3>
+            <p class="text-base">3 items</p>
+          </div>
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/fish-cartoon.png" alt=""
+              /></span>
             </div>
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/cat-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Cat</h3>
-                <p class="text-base">3 items</p>
+            <h3 class="font-bold text-xl mt-3">Fish</h3>
+            <p class="text-base">3 items</p>
+          </div>
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/cat-cartoon.png" alt=""
+              /></span>
             </div>
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/bird-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Birds</h3>
-                <p class="text-base">3 items</p>
+            <h3 class="font-bold text-xl mt-3">Cat</h3>
+            <p class="text-base">3 items</p>
+          </div>
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/bird-cartoon.png" alt=""
+              /></span>
             </div>
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/mouse-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Small pet</h3>
-                <p class="text-base">3 items</p>
+            <h3 class="font-bold text-xl mt-3">Birds</h3>
+            <p class="text-base">3 items</p>
+          </div>
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/mouse-cartoon.png" alt=""
+              /></span>
             </div>
-            <!-- Category Item -->
-            <div class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                    <span><img src="./assets/c1-assets/rabbit-cartoon.png" alt=""></span>
-                </div>
-                <h3 class="font-bold text-xl mt-3">Rabit</h3>
-                <p class="text-base">2 items</p>
+            <h3 class="font-bold text-xl mt-3">Small pet</h3>
+            <p class="text-base">3 items</p>
+          </div>
+          <!-- Category Item -->
+          <div
+            class="bg-[#F9DF8A] p-5 rounded-lg flex flex-col items-center text-center"
+          >
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
+            >
+              <span
+                ><img src="./assets/c1-assets/rabbit-cartoon.png" alt=""
+              /></span>
             </div>
+            <h3 class="font-bold text-xl mt-3">Rabit</h3>
+            <p class="text-base">2 items</p>
+          </div>
         </div>
-    </div>
-</section>
-<main>
-</main>
-
-<footer>
-    <section class="bg-[#FFF9F4] flex items-center h-[400px] w-[1190px] m-[160px] relative translate-y-3/4">
-        <div>
-            <img class="ml-[90px] mr-[120px] mt-[40px] mb-[40px]" src="./assets/c1-assets/cute-pet-mid.png" alt="">
-        </div>
-        <div>
-            <h2 class="text-5xl mt-[20px] mb-[20px]">Get Pawsome News!</h2>
-            <p class="text-xl">Exclusive training tips, ticks, product deals and more.</p>
-            <form action="">
-                <input class="h-[67px] w-[470px] p-5 mt-[30px] mb-[30px]" type="text" id="fname" name="firstname" placeholder="Your name..">
-            </form>
-            <button class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] bg-[#FFDC26] hover:text-black-500">Subscribe</button>
-        </div>
+      </div>
     </section>
-    <section class="bg-[#FFDC2680] flex justify-around">
-    <div>
-        <div class="flex items-center gap-[11px] mt-[220px]">
-            <img src="./assets/c1-assets/logo-footer.png" alt="">
-            <h3 class="text-3xl font-bold">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+    <main>
+      <!--Trending Pet Products section starts here  -->
+      <section class="bg-[#fef8f3] p-6">
+        <div class="max-w-7xl mx-auto">
+          <h2 class="text-xl font-bold mb-4">Trending Pet Products</h2>
+          <div class="grid md:grid-cols-4 grid-cols-1 gap-4">
+            <!-- Featured Product -->
+            <div
+              class="bg-yellow-200 p-6 rounded-lg flex flex-col items-center"
+            >
+              <h3 class="font-bold text-lg">T-Shirt For Dogs</h3>
+              <p class="text-sm text-gray-700 text-center">
+                Discover a world of treats, toys, and essentials handpicked for
+              </p>
+              <button
+                class="mt-4 px-4 py-2 bg-white text-black rounded-md shadow-md"
+              >
+                Shop Now
+              </button>
+              <img
+                src="./assets/c1-assets/cute-pet-small.png"
+                alt="Dog"
+                class="mt-4 w-32"
+              />
+            </div>
+            <!-- Products -->
+            <div class="md:col-span-3 grid md:grid-cols-3 grid-cols-2 gap-4">
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow text-center">
+                <span class="text-yellow-500"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48px"
+                    viewBox="0 -960 960 960"
+                    width="48px"
+                    fill="#F19E39"
+                  >
+                    <path
+                      d="m337.07-265.04 142.97-85.16L623-264l-39-161 126-110-166-14-64-152-64 152-166 13 126.37 109.02-39.3 161.94ZM196-68l75-324L19-610l331.6-27.79L480-944l129.4 306.21L941-610 689-392l76 324-285-173L196-68Zm284-405Z"
+                    />
+                  </svg>
+                  4.5</span
+                >
+                <p class="font-bold">Pet Bed</p>
+                <p>$39.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Trending Pet Products section ends here  -->
+    </main>
+
+    <footer>
+      <section
+        class="bg-[#FFF9F4] flex items-center lg:h-[400px] lg:w-[1190px] lg:m-[160px] relative translate-y-3/4 sm:h-[523px] sm:w-[350px] md:h-[400px] md:w-[1190px]"
+      >
+        <div>
+          <img
+            class="lg:ml-[90px] lg:mr-[120px] lg:mt-[40px] lg:mb-[40px] sm:items-center sm:h-[238px] sm:w[190px] sm:mt-[32px] sm:mb-[32px]"
+            src="./assets/c1-assets/cute-pet-mid.png"
+            alt=""
+          />
         </div>
         <div>
-            <p class="mt-[30px] text-[#111111B3] text-xl font-normal">Discover a world of treats, toys, and<br>essentials handpicked for your furry<br>friends</p>
+          <h2 class="lg:text-5xl sm:text-2xl lg:mt-[20px] lg:mb-[20px]">
+            Get Pawsome News!
+          </h2>
+          <p class="text-xl">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <form action="">
+            <input
+              class="h-[67px] w-[470px] p-5 mt-[30px] mb-[30px]"
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </form>
+          <button
+            class="hidden md:flex px-4 py-2 border border-[#FFDC26] rounded text-[#111111] bg-[#FFDC26] hover:text-black-500"
+          >
+            Subscribe
+          </button>
         </div>
-    </div>
-    <div class="mt-[220px] text-xl font-normal">
-        <p >Find a pet</p>
-        <p class="mt-[40px]">Breeds</p>
-        <p class="mt-[40px]">Contact us</p>
-    </div>
-    <div class="mt-[300px] mb-[120px] text-base font-medium">
+      </section>
+      <section
+        class="bg-[#FFDC2680] flex justify-around sm:h-[750px] sm:w-390px"
+      >
         <div>
+          <div class="flex items-center gap-[11px] mt-[220px]">
+            <img src="./assets/c1-assets/logo-footer.png" alt="" />
+            <h3 class="text-3xl font-bold">
+              Browse<span class="text-[#FFDC26]">4</span>Pets
+            </h3>
+          </div>
+          <div>
+            <p class="mt-[30px] text-[#111111B3] text-xl font-normal">
+              Discover a world of treats, toys, and<br />essentials handpicked
+              for your furry<br />friends
+            </p>
+          </div>
+        </div>
+        <div class="mt-[220px] text-xl font-normal">
+          <p>Find a pet</p>
+          <p class="mt-[40px]">Breeds</p>
+          <p class="mt-[40px]">Contact us</p>
+        </div>
+        <div class="mt-[300px] lg:mb-[120px] text-base font-medium">
+          <div>
             <p>Follow Us</p>
+          </div>
+          <div class="flex gap-[30px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="40px"
+              viewBox="0 -960 960 960"
+              width="40px"
+              fill="#EA3323"
+            >
+              <path
+                d="M616-242q-27 1-51.5 1.5t-43.5.5h-41q-71 0-133-2-53-2-104.5-5.5T168-257q-26-7-45-26t-26-45q-6-23-9.5-56T82-447q-2-36-2-73t2-73q2-30 5.5-63t9.5-56q7-26 26-45t45-26q23-6 74.5-9.5T347-798q62-2 133-2t133 2q53 2 104.5 5.5T792-783q26 7 45 26t26 45q6 23 9.5 56t5.5 63q2 36 2 73v17q-19-8-39-12.5t-41-4.5q-83 0-141.5 58.5T600-320q0 21 4 40.5t12 37.5ZM400-400l208-120-208-120v240Zm360 200v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="37px"
+              viewBox="0 -960 960 960"
+              width="45px"
+              fill="#EA3323"
+            >
+              <path
+                d="M320-120q-83 0-141.5-58.5T120-320v-320q0-83 58.5-141.5T320-840h320q83 0 141.5 58.5T840-640v320q0 83-58.5 141.5T640-120H320Zm0-66.67h320q55.56 0 94.44-38.89 38.89-38.88 38.89-94.44v-320q0-55.56-38.89-94.44-38.88-38.89-94.44-38.89H320q-55.56 0-94.44 38.89-38.89 38.88-38.89 94.44v320q0 55.56 38.89 94.44 38.88 38.89 94.44 38.89ZM480-280q75 0 127.5-52.5T660-460q0-75-52.5-127.5T480-640q-75 0-127.5 52.5T300-460q0 75 52.5 127.5T480-280Zm0-66.67q-47.6 0-80.47-32.86-32.86-32.87-32.86-80.47t32.86-80.47q32.87-32.86 80.47-32.86t80.47 32.86q32.86 32.87 32.86 80.47t-32.86 80.47Q527.6-346.67 480-346.67Zm.33-326.66q14 0 23.5-9.84 9.5-9.83 9.5-23.83 0-14-9.58-23.5T480-740q-13.67 0-23.5 9.58-9.83 9.59-9.83 23.75 0 13.67 9.83 23.5 9.83 9.84 23.83 9.84ZM480-460Z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="39px"
+              viewBox="0 -960 960 960"
+              width="39px"
+              fill="#EA3323"
+            >
+              <path
+                d="M440-120v-60h340v-304q0-123.69-87.32-209.84Q605.36-780 480-780q-125.36 0-212.68 86.16Q180-607.69 180-484v244h-20q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v69q0 24.75-17.62 42.37Q804.75-120 780-120H440Zm-80.18-290q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5Zm240 0q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5ZM241-462q-7-106 64-182t177-76q87 0 151 57.5T711-519q-89-1-162.5-50T434.72-698Q419-618 367.5-555.5T241-462Z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="39px"
+              viewBox="0 -960 960 960"
+              width="39px"
+              fill="#EA3323"
+            >
+              <path
+                d="M169.86-485Q132-485 106-511.14t-26-64Q80-613 106.14-639t64-26Q208-665 234-638.86t26 64Q260-537 233.86-511t-64 26Zm185-170Q317-655 291-681.14t-26-64Q265-783 291.14-809t64-26Q393-835 419-808.86t26 64Q445-707 418.86-681t-64 26Zm250 0Q567-655 541-681.14t-26-64Q515-783 541.14-809t64-26Q643-835 669-808.86t26 64Q695-707 668.86-681t-64 26Zm185 170Q752-485 726-511.14t-26-64Q700-613 726.14-639t64-26Q828-665 854-638.86t26 64Q880-537 853.86-511t-64 26ZM266-75q-42 0-69-31.53-27-31.52-27-74.47 0-42 25.5-74.5T250-318q22-22 41-46.5t36-50.5q29-44 65-82t88-38q52 0 88.5 38t65.5 83q17 26 35.5 50t40.5 46q29 30 54.5 62.5T790-181q0 42.95-27 74.47Q736-75 694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z"
+              />
+            </svg>
+          </div>
         </div>
-        <div class="flex gap-[30px] ">
-            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#EA3323"><path d="M616-242q-27 1-51.5 1.5t-43.5.5h-41q-71 0-133-2-53-2-104.5-5.5T168-257q-26-7-45-26t-26-45q-6-23-9.5-56T82-447q-2-36-2-73t2-73q2-30 5.5-63t9.5-56q7-26 26-45t45-26q23-6 74.5-9.5T347-798q62-2 133-2t133 2q53 2 104.5 5.5T792-783q26 7 45 26t26 45q6 23 9.5 56t5.5 63q2 36 2 73v17q-19-8-39-12.5t-41-4.5q-83 0-141.5 58.5T600-320q0 21 4 40.5t12 37.5ZM400-400l208-120-208-120v240Zm360 200v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z"/></svg>
-
-            <svg xmlns="http://www.w3.org/2000/svg" height="37px" viewBox="0 -960 960 960" width="45px" fill="#EA3323"><path d="M320-120q-83 0-141.5-58.5T120-320v-320q0-83 58.5-141.5T320-840h320q83 0 141.5 58.5T840-640v320q0 83-58.5 141.5T640-120H320Zm0-66.67h320q55.56 0 94.44-38.89 38.89-38.88 38.89-94.44v-320q0-55.56-38.89-94.44-38.88-38.89-94.44-38.89H320q-55.56 0-94.44 38.89-38.89 38.88-38.89 94.44v320q0 55.56 38.89 94.44 38.88 38.89 94.44 38.89ZM480-280q75 0 127.5-52.5T660-460q0-75-52.5-127.5T480-640q-75 0-127.5 52.5T300-460q0 75 52.5 127.5T480-280Zm0-66.67q-47.6 0-80.47-32.86-32.86-32.87-32.86-80.47t32.86-80.47q32.87-32.86 80.47-32.86t80.47 32.86q32.86 32.87 32.86 80.47t-32.86 80.47Q527.6-346.67 480-346.67Zm.33-326.66q14 0 23.5-9.84 9.5-9.83 9.5-23.83 0-14-9.58-23.5T480-740q-13.67 0-23.5 9.58-9.83 9.59-9.83 23.75 0 13.67 9.83 23.5 9.83 9.84 23.83 9.84ZM480-460Z"/></svg>
-
-            <svg xmlns="http://www.w3.org/2000/svg" height="39px" viewBox="0 -960 960 960" width="39px" fill="#EA3323"><path d="M440-120v-60h340v-304q0-123.69-87.32-209.84Q605.36-780 480-780q-125.36 0-212.68 86.16Q180-607.69 180-484v244h-20q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v69q0 24.75-17.62 42.37Q804.75-120 780-120H440Zm-80.18-290q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5Zm240 0q-12.82 0-21.32-8.68-8.5-8.67-8.5-21.5 0-12.82 8.68-21.32 8.67-8.5 21.5-8.5 12.82 0 21.32 8.68 8.5 8.67 8.5 21.5 0 12.82-8.68 21.32-8.67 8.5-21.5 8.5ZM241-462q-7-106 64-182t177-76q87 0 151 57.5T711-519q-89-1-162.5-50T434.72-698Q419-618 367.5-555.5T241-462Z"/></svg>
-
-            <svg xmlns="http://www.w3.org/2000/svg" height="39px" viewBox="0 -960 960 960" width="39px" fill="#EA3323"><path d="M169.86-485Q132-485 106-511.14t-26-64Q80-613 106.14-639t64-26Q208-665 234-638.86t26 64Q260-537 233.86-511t-64 26Zm185-170Q317-655 291-681.14t-26-64Q265-783 291.14-809t64-26Q393-835 419-808.86t26 64Q445-707 418.86-681t-64 26Zm250 0Q567-655 541-681.14t-26-64Q515-783 541.14-809t64-26Q643-835 669-808.86t26 64Q695-707 668.86-681t-64 26Zm185 170Q752-485 726-511.14t-26-64Q700-613 726.14-639t64-26Q828-665 854-638.86t26 64Q880-537 853.86-511t-64 26ZM266-75q-42 0-69-31.53-27-31.52-27-74.47 0-42 25.5-74.5T250-318q22-22 41-46.5t36-50.5q29-44 65-82t88-38q52 0 88.5 38t65.5 83q17 26 35.5 50t40.5 46q29 30 54.5 62.5T790-181q0 42.95-27 74.47Q736-75 694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z"/></svg>
-        </div>
-
-    </div>
-</section>
-</footer>
-</body>
+      </section>
+    </footer>
+  </body>
 </html>
